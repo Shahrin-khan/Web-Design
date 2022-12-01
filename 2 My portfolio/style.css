@@ -1,0 +1,40 @@
+body{
+	height: auto;
+	background-image: url('btfly.jpg');
+	background-color:#C1F8E5  ;
+	font-family: 'Lobster', cursive;
+}
+
+h1{
+	font-size: 60px;
+	color: #F01388 ;
+	background-color: black;
+	text-align: center;
+}
+
+.a{
+	color: green;
+	background-color: #F2B976;
+	text-align: center;
+	background-size: 200px;
+}
+
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#aa{
+	color: #9D13F0 ;
+	text-align: center;
+}
+.w{
+	text-align: center;
+}
+.c{
+	background-color: #6E2A14;
+}
+.d{
+	border: 3px;
+}

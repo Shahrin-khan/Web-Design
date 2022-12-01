@@ -1,0 +1,88 @@
+body{
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+.shahrin{
+	width: 400px;
+	height: 220px;
+	border: 3px solid #000;
+	background-color: #E7CC8D ;
+	overflow: hidden;
+	/* overflow:visible(mean overflow will be shown);
+	overflow:hidden(mean overflow will be hidden);
+	overflow:scroll(mean overflow will be dragged);
+	overflow:auto(mean overflow will be dragged with more area);*/
+	position: absolute;
+	top: 100px;
+	right: 20px;
+}
+
+.box1{
+	width: 500px;
+	height: 300px;
+	border: 3px solid #000;
+	background-color: #047002 ;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 10%; /*border-top-right-radius is used to bend one side*/
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 50%;
+
+}
+
+.home{
+	font-size: 30px;
+	background-color: #BBC0BB;
+	position: fixed;/*position static is default*/
+	top: 5px;
+	left: 10px;
+}
+
+.s1{
+	background-color: #D778E4;
+	float: left;
+}
+
+.s2{
+	background-color: #7AE3F1;
+	float: right;
+}
+
+.s3{
+	background-color: #F1D47A;
+	clear: both;
+}
+
+.h1{
+	text-align: center;
+}
+
+.span{
+	text-align: center;/*block line element, if we dont use div tag, 
+	span{text-align: center; display: block;*/
+}
+
+.h1a{
+	display: inline-block;/*(display : block)default;*/
+}

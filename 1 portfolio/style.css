@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.background{
+	width: 100%;
+	height:100%;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+.nav{
+	width: 350px;
+	height: auto;
+	background-color: gray;
+	position: absolute;
+	top: 20%;
+	left: 0;
+
+}
+
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active{
+	background-color: white;
+	color: black;
+}
+
+a.active, .nav a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 75%;
+}
+.c{
+	width: 85%;
+}
+
+.content{
+	position: absolute;
+	width: 800px;
+	min-height: 400px;
+	height: auto;
+	/*background-color: skyblue;*/
+	right: 0;
+	top: -10%;
+}
+.home{
+	position: absolute;
+	left: 20%;
+	bottom: 50%;
+	color: white;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+.home h1{
+	font-size: 60px;
+	padding-right: 90px;
+	border-bottom: 1px solid white;
+}
+.home h3{
+	font-size: 28px;
+	padding: 5px;
+	opacity: o.6;
+}

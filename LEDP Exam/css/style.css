@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#header-area{
+	width:100%;
+	border-top: 5px solid #063D65;
+}
+
+#foother-area{
+	width:100%;
+	background-color:#121818;
+	color:#E7F6F6;
+}
+
+#foother-area h5{
+	color:#FBFFFF;
+}
+
+#foother-area input{
+	background-color:#65063B; 
+}
+
+#foother-area input[type=submit]:hover{
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.social-area ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-area ul li{
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.social-area ul li a{
+width:50px;
+height:50px;
+background-color: white;
+display:block;
+padding:5px 0px 0px 8px;
+font-size: 30px;
+}
+#copyright-area{
+	background-color: black;
+	color:#fff;
+}

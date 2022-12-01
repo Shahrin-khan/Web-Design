@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<title>Card+pagination+Progress bar</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<style>
+	i{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	img{
+		margin-left: 90px;
+		border-radius: 15px;
+	}
+	.card:hover{
+		cursor: pointer;
+		box-shadow: 10px 10px 20px gray;
+		background-color: rgb(81, 170, 231,0.3);
+	}
+</style>
+
+<body>
+	
+	<div class="container">
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">Modal</button>
+		<div class="modal" id="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1>User login</h1>
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!cards>
+
+	<div class="container">
+		<h1 class="text-center text text-uppercase text-info mt-3"> Lovely Characters </h1>
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body">
+						<img src="img/tom.jpg" alt="tom cat">
+						<h1> Mr. Tom</h1>
+						<p>Tom and Jerry. The title card seen in Tom and Jerry shorts from 1946 to 1954. Directed by. William Hanna (1940–58) Joseph Barbera (1940–58)</p>
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-messenger"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fas fa-phone-square"></i></a>
+					</div>
+				</div>
+			</div>
+		
+
+
+	<div class="col-md-4">
+				<div class="card">
+					<div class="card-body">
+						<img src="img/jerry1.jpg" alt="jerry cat">
+						<h1>Mr. Jerry</h1>
+						<p>Tom and Jerry. The title card seen in Tom and Jerry shorts from 1946 to 1954. Directed by. William Hanna (1940–58) Joseph Barbera (1940–58)</p>
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-messenger"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fas fa-phone-square"></i></a>
+					</div>
+				</div>
+			</div>
+
+
+	<div class="col-md-4">
+				<div class="card">
+					<div class="card-body">
+						<img src="img/oggy.jpg" alt="oggy cat">
+						<h1> Mr. Oggy</h1>
+						<p>Here is OGGY, the only cat the word « feline » can't apply to. He would be the happiest of cats if three hideous cockroaches hadn't decided to settle inside his house</p>
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-messenger"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href=""><i class="fas fa-phone-square"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!cards>
+
+		<br><br><br>
+
+		<!pagination>
+
+		<ul class="pagination justify-content-center">
+			<li class="page-item disabled"><a class="page-link" href="">Previous</a></li>
+			<li class="page-item"><a class="page-link" href="">1</a></li>
+			<li class="page-item active"><a class="page-link" href="">2</a></li>
+			<li class="page-item"><a class="page-link" href="">3</a></li>
+			<li class="page-item"><a class="page-link" href="">4</a></li>
+			<li class="page-item"><a class="page-link" href="">5</a></li>
+			<li class="page-item"><a class="page-link" href="">Next</a></li>
+		</ul>
+		
+		<!pagination>
+	</div>
+
+			<br><br><br>
+
+			<!progress bar>
+	<h1 class="text-center text-info text-uppercase">Techniqal skill</h1>
+	
+	<div class="progress mt-4" style="height: 30px">
+		<div class="progress-bar bg-success" style="width: 580px">HTML</div>
+	</div>
+
+	<div class="progress mt-4" style="height: 30px">
+		<div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 465px">CSS</div>
+	</div>
+
+	<div class="progress mt-4" style="height: 30px">
+		<div class="progress-bar bg-info" style="width: 385px">JAVASCRIPT</div>
+	</div>
+
+	<div class="progress mt-4" style="height: 30px">
+		<div class="progress-bar" style="width: 520px">BOOTSTRAP</div>
+	</div>
+			<!progress bar>
+
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
